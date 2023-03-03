@@ -1,9 +1,9 @@
 const Sequelize = require('sequelize')
 
-const sequelize = new Sequelize('deleting-cart','root','PFH#23kgrw9',
+const sequelize = new Sequelize('deleting-cart','root','root',
 {
     dialect: 'mysql',
     host: 'localhost'
 })
 
-module.exports = sequelize;
+module.exports = sequelize
